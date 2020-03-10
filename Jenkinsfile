@@ -1,6 +1,6 @@
 pipeline {
     environment {
-        PATH = "C:\\Program Files\\Git\\usr\\bin;${env.PATH}"}
+        PATH = '/bin:/usr/coreutils/bin:.:/home/hp/meg/bin:/usr/local/bin:/usr/tandem/java/bin:/usr/local/maven/bin'}
     agent any
     stages {
         stage ('Build') {
