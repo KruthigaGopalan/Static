@@ -1,6 +1,6 @@
 pipeline {
     environment {
-        PATH ="C:\Program Files (x86)\Jenkins\workspace\Static_master;${env.PATH}"}
+        PATH ="C:\\Program Files (x86)\\Jenkins\\workspace\\Static_master;${env.PATH}"}
     agent any
     stages {
         stage ('Build') {
